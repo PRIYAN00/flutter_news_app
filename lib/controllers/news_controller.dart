@@ -13,7 +13,6 @@ class NewsController with ChangeNotifier {
   bool _isLoading = false;
   bool get isLoading => _isLoading;
 
-  //final String _apiKey = 'e2b791c3d7bf47308b8884fade671b51';
   final String _apiKey = const String.fromEnvironment('API_KEY');
   final String _baseUrl = 'https://newsapi.org/v2';
 
